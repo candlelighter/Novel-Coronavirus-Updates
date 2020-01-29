@@ -11,9 +11,9 @@
 
 =======================================
 
-下载 https://github.com/candlelighter/Novel-Coronavirus-Updates
-2020/1/28
-上载对数画图 plot.py.附加说明。
+下载连接 https://github.com/candlelighter/Novel-Coronavirus-Updates. 
+
+2020/1/28：上载对数画图 plot.py.附加说明。
 
 附：新型冠状病毒感染/死亡历史数据图
 ![Alt text](./20200127.png?raw=true "plot")
