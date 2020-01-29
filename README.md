@@ -12,4 +12,5 @@
 上载对数画图 plot.py.附加说明。
 
 附：新型冠状病毒感染/死亡历史数据图
+![Alt text](./20200127.png?raw=true "plot")
 ![Image of the plot](https://github.com/candlelighter/Novel-Coronavirus-Updates/master/20200127.png)
