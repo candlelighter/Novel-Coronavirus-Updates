@@ -8,3 +8,5 @@
 大家春节快乐，**身体健康**！
 
 附：[新型冠状病毒感染肺炎病例实时地图](http://projects.thepaper.cn/thepaper-cases/839studio/feiyan/)
+
+上载对数画图 plot.py.附加说明。
