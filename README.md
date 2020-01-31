@@ -7,8 +7,11 @@
 GitHub下载连接 https://github.com/candlelighter/Novel-Coronavirus-Updates.
 
 发布说明：
+
 2020/1/31：更新数据格式。澎湃新闻.csv文件从utf-8改成GB2312
+
 2020/1/30: 增长率算法
+
 2020/1/28：上载半对数画图 plot.py.附加说明。
 
 用半对数图可以直观地给出下面三个总体参数：
