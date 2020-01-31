@@ -7,12 +7,15 @@ import matplotlib
 matplotlib.rc('xtick', labelsize=20)     
 matplotlib.rc('ytick', labelsize=20)
 
-df=pd.read_csv('Updates_NC.csv')
+df=pd.read_csv('Updates_NC.csv',encoding='GB2312') # 'ISO-8859-1') # 'utf-8') #'cp1252'
 # assuming the date format of "month月day日'
 columns={'year','month','day'}
 df1=pd.DataFrame(index=df.index, columns=columns)
-df1['month']=pd.to_numeric(df['确诊/出院'].str.replace('月[0-9].','').str.replace('日',''))
-df1['day']=pd.to_numeric(df['确诊/出院'].str.replace('[0-9]*月','').str.replace('日',''))
+#df1['month']=pd.to_numeric(df['确诊/出院'].str.replace('月[0-9].','').str.replace('日',''))
+#df1['day']=pd.to_numeric(df['确诊/出院'].str.replace('[0-9]*月','').str.replace('日',''))
+#报道时间
+df1['month']=pd.to_numeric(df['报道时间'].str.replace('月[0-9].','').str.replace('日',''))
+df1['day']=pd.to_numeric(df['报道时间'].str.replace('[0-9]*月','').str.replace('日',''))
 df1['year']=df1['month'] # initiate
 df1['year']=2020 # year
 # add datetime columns
@@ -29,8 +32,8 @@ df2['dt']=pd.date_range(dt_min, periods=(dt_max-dt_min).days+1, freq='D')
 
 for k in  index:
     df3=df[df['dt'] <= df2['dt'][k]] # select the data with date <= to target date
-    df2['infection'][k]=df3['新增确诊病例'].sum() # add up the infection
-    df2['death'][k]=df3['新增死亡数'].sum() # add up the death
+    df2['infection'][k]=df3['新增确诊'].sum() # add up the infection
+    df2['death'][k]=df3['新增死亡'].sum() # add up the death
 print(df2)
 
 # plot
