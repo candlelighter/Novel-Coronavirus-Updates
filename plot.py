@@ -79,4 +79,5 @@ ax2.legend(['infection growth rate', 'death growth rate'], loc='lower right', fo
 #ax1.grid(b=True, which='major')
 #ax2.grid(b=True, which='both', axis='y', color='k', linestyle='-.', linewidth=1)
 plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m/%d'))
+plt.savefig(df2['dt'].iloc[-1].strftime("%Y%m%d")+'.png', format='png')
 plt.show()
