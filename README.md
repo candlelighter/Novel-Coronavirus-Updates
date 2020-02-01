@@ -26,7 +26,7 @@ GitHub下载连接 https://github.com/candlelighter/Novel-Coronavirus-Updates.
 
 发布说明：
 
-2020/2/1:  写入.png文件。更新数据。澎湃新闻的 .csv文件从GB2312改回utf-8
+2020/2/1:  输出所有数据（从1/10以来）总的平均增长率。图写入.png文件。更新数据。澎湃新闻的 .csv文件从GB2312改回utf-8
 
 2020/1/31：更新数据格式。澎湃新闻的 .csv文件从utf-8改成GB2312
 
