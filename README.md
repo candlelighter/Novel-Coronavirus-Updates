@@ -20,11 +20,13 @@
 
 0.35 两天翻一番
 
-![Alt text](./20200131.png?raw=true "plot")
+![Alt text](./20200201.png?raw=true "plot")
 
 GitHub下载连接 https://github.com/candlelighter/Novel-Coronavirus-Updates.
 
 发布说明：
+
+2020/2/1:  更新数据格式。澎湃新闻的 .csv文件从GB2312改回utf-8
 
 2020/1/31：更新数据格式。澎湃新闻的 .csv文件从utf-8改成GB2312
 
@@ -36,7 +38,7 @@ GitHub下载连接 https://github.com/candlelighter/Novel-Coronavirus-Updates.
 
 =======================================================
 
-### 新增确诊新型冠状病毒肺炎统计数据（每日更新）———— 最新一次更新时间：1月31日14:07
+### 新增确诊新型冠状病毒肺炎统计数据（每日更新）———— 最新一次更新时间：2月1日13:25
 
 数据收集与更新不易。如使用数据请标注，疫情数据由**澎湃新闻美数课整理提供**。
 
