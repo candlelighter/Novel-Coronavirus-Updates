@@ -7,8 +7,8 @@ import matplotlib
 matplotlib.rc('xtick', labelsize=20)     
 matplotlib.rc('ytick', labelsize=20)
 
-#df=pd.read_csv('Updates_NC.csv',encoding='GB2312') # 1/31, encoding changed from utf-8 to gb2312.
-df=pd.read_csv('Updates_NC.csv',encoding='utf-8') # 2/1, encoding changed back to utf-8
+df=pd.read_csv('Updates_NC.csv',encoding='GB2312') # 1/31, encoding changed from utf-8 to gb2312.
+#df=pd.read_csv('Updates_NC.csv',encoding='utf-8') # 2/1, encoding changed back to utf-8
 # assuming the date format of "month月day日'
 columns={'year','month','day'}
 df1=pd.DataFrame(index=df.index, columns=columns)
