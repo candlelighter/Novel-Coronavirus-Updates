@@ -75,7 +75,7 @@ print(aveGrowthRate(df2, ['infection', 'death']))  # print the over all growth r
 
 ax2=ax1.twinx()
 ax2.plot(df2['dt'], df2['infection_gr'], 'bo-.', df2['dt'], df2['death_gr'], 'co-.', linewidth=2)
-ax2.legend(['infection growth rate', 'death growth rate'], loc='lower right', fontsize=20)
+ax2.legend(['infection growth rate', 'death growth rate'], loc='lower center', fontsize=20)
 #ax1.grid(b=True, which='major')
 #ax2.grid(b=True, which='both', axis='y', color='k', linestyle='-.', linewidth=1)
 plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%m/%d'))
