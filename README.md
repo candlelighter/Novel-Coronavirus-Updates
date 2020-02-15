@@ -20,7 +20,7 @@
 
 0.35 两天翻一番
 
-![Alt text](./20200211.png?raw=true "plot")
+![Alt text](./20200213.png?raw=true "plot")
 
 GitHub下载连接 https://github.com/candlelighter/Novel-Coronavirus-Updates.
 
@@ -38,7 +38,7 @@ GitHub下载连接 https://github.com/candlelighter/Novel-Coronavirus-Updates.
 
 =======================================================
 
-### 新增确诊新型冠状病毒肺炎统计数据（每日更新）———— 最新一次更新时间：2月11日19:30
+### 新增确诊新型冠状病毒肺炎统计数据（每日更新）———— 最新一次更新时间：2月13日23:55
 
 数据收集与更新不易。如使用数据请标注，疫情数据由**澎湃新闻美数课整理提供**。
 
