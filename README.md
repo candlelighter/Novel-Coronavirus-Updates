@@ -20,8 +20,6 @@
 
 0.35 两天翻一番
 
-![Alt text](./20200204.png?raw=true "plot")
-
 ![Alt text](./20200224.png?raw=true "plot")
 
 GitHub下载连接 https://github.com/candlelighter/Novel-Coronavirus-Updates.
